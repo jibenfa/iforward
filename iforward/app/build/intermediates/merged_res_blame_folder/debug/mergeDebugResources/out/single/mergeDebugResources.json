@@ -1,0 +1,218 @@
+[
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable-zh-rTW-hdpi_guide03.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable-zh-rTW-hdpi\\guide03.png"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\layout_list_sel_contact.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\layout\\list_sel_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable-zh-rCN-hdpi_guide02.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable-zh-rCN-hdpi\\guide02.png"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\layout_list_contact.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\layout\\list_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\layout_layout_guide_page.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\layout\\layout_guide_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable-en-hdpi_guide03.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable-en-hdpi\\guide03.png"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "cn.xm.hanley.iforward.activity.app-debug-4:/layout_anction_bar.xml.flat",
+        "source": "cn.xm.hanley.iforward.activity.app-main-6:/layout/anction_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable-hdpi_btn_detail_w_normal.9.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable-hdpi\\btn_detail_w_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\layout_tabswipe_main.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\layout\\tabswipe_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\menu_menu_title.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\menu\\menu_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable_bg_button_primary.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable\\bg_button_primary.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\layout_layout_about.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\layout\\layout_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable-ldpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\layout_layout_guide_container.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\layout\\layout_guide_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable-zh-rTW-hdpi_guide01.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable-zh-rTW-hdpi\\guide01.png"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\layout_layout_app_start.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\layout\\layout_app_start.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable_ic_forward_app.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable\\ic_forward_app.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable-hdpi_guide_dot_white.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable-hdpi\\guide_dot_white.png"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\layout_item_contact.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\layout\\item_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\layout_anction_bar.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\layout\\anction_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable-en-hdpi_guide01.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable-en-hdpi\\guide01.png"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable_bg_tab_default.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable\\bg_tab_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable_bg_button_secondary.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable\\bg_button_secondary.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable_bg_tab_selected.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable\\bg_tab_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable-hdpi_ab_solid_custom_blue_inverse_holo.9.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable-hdpi\\ab_solid_custom_blue_inverse_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable_guide_round.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable\\guide_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable-zh-rCN-hdpi_welcome.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable-zh-rCN-hdpi\\welcome.png"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable_btn_normal.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable\\btn_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\layout_item_forwar.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\layout\\item_forwar.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable-en-hdpi_welcome.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable-en-hdpi\\welcome.png"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable-zh-rCN-hdpi_guide03.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable-zh-rCN-hdpi\\guide03.png"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\layout_fm_forward.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\layout\\fm_forward.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable-hdpi_btn_detail_w_pressed.9.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable-hdpi\\btn_detail_w_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable-zh-rTW-hdpi_guide02.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable-zh-rTW-hdpi\\guide02.png"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable-en-hdpi_guide02.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable-en-hdpi\\guide02.png"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable_bg_card.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable\\bg_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\layout_item_sel_contact.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\layout\\item_sel_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable-zh-rCN-hdpi_guide01.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable-zh-rCN-hdpi\\guide01.png"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\layout_item_history.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\layout\\item_history.xml"
+    },
+    {
+        "merged": "cn.xm.hanley.iforward.activity.app-debug-4:/layout_layout_guide_page.xml.flat",
+        "source": "cn.xm.hanley.iforward.activity.app-main-6:/layout/layout_guide_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable-hdpi_guide_dot_black.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable-hdpi\\guide_dot_black.png"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\layout_layout_manually_add2.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\layout\\layout_manually_add2.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\drawable-zh-rTW-hdpi_welcome.png.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\drawable-zh-rTW-hdpi\\welcome.png"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\layout_fm_custom.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\layout\\fm_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\layout_fm_history.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\layout\\fm_history.xml"
+    },
+    {
+        "merged": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-debug-4:\\layout_layout_manually_add.xml.flat",
+        "source": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-main-6:\\layout\\layout_manually_add.xml"
+    }
+]

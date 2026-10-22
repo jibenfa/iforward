@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">安心转接</string>
+    <string name="app_subtitle">依電信業者呼叫轉接規則處理來電</string>
+    <string name="more_options">更多選項</string>
+    <string name="number_page_title">轉接號碼</string>
+    <string name="number_page_hint">設定電信業者「遇忙轉接」的目標號碼</string>
+    <string name="no_data">無數據</string>
+    <string name="ok">確定</string>
+    <string name="cancle">取消</string>
+    <string name="forward_number">轉接號碼</string>
+    <string name="forward_object">轉接對象</string>
+    <string name="forward_history">轉接歷史</string>
+    <string name="forward_object_default_display">轉接對象(0)</string>
+    <string name="tip_no_content">需要錄入號碼</string>
+    <string name="tip_no_item_selected">未曾選擇</string>
+    <string name="settings">設定</string>
+    <string name="about">關於</string>
+    <string name="app_intrudoction">來電攔截的手機軟件，目前來說都比較多，而且功能遠遠不僅僅局限於攔截號碼的範疇了，軟件開發商早就將攔截功能作為軟件的一個小功能附加在自己的軟​​件中，這方面比較有知名度的，例如：360手機衛士、安管家。他們研發的產品不僅僅是攔截號碼那麼簡單，如殺毒功能，而且還是雲查殺，流量監控，內存清理，防盜功能等。可以說他們做的非常完善、優秀了。但是由於360手機衛士又或者是安管家，兩款軟件的功能是在太多了，加上手機還安裝一大堆有後台服務的軟件，手機內存所剩無幾，我時常說手機卡的P暴，這讓我非常惆悵，身邊的同事朋友都有同感，於是萌發僅僅開發一個有攔截來電的功能的小軟件，更準確的說應該是轉接，因為讓用戶決定轉接到哪個號碼，功能會擴大化，可以用於攔截騷擾，也可以轉移到你家的座機上，家人幫你接緊急電話。不是每個人的需求都一樣，既然想到了我就開始這麼乾了!最重要的是App免費並且開源.</string>
+    <string name="contact">聯絡方式</string>
+    <string name="email">Gmail: tanghly@gmail.com</string>
+    <string name="google">Google+: http://gplus.to/hanleytowne</string>
+    <string name="twitter">twitter: http://www.facebook.com/hanleytowne</string>
+    <string name="facebook">facebook: http://www.facebook.com/hanleytowne</string>
+    <string name="weibo">weibo: http://weibo.com/tanghanlin</string>
+    <string name="source_code">SourceCode:http://code.google.com/p/iforward/</string>
+    <string name="manually_add">手動新增</string>
+    <string name="transferred_to">來電被轉至</string>
+    <string name="delete">移除</string>
+    <string name="export">導出</string>
+    <string name="clear">清除</string>
+    <string name="manually_add_number">手動新增號碼</string>
+    <string name="contacts_add_number">從聯絡人選擇</string>
+    <string name="calllogs_add_number">從通話歷史選擇</string>
+    <string name="add_forward_object">新增轉接對象</string>
+    <string name="tip">友好提示</string>
+    <string name="tip_clear">清除歷史記錄?</string>
+    <string name="memo">備註一下</string>
+    <string name="mobile_tel_num">手機|座機</string>
+    <string name="tip_no_number_settings">未設定號碼</string>
+    <string name="number_settings">號碼設定</string>
+    <string name="disable_forward_number">禁用號碼轉接</string>
+    <string name="tip_history_export_to">歷史記錄導出至:</string>
+    <string name="tip_export_success">導出成功</string>
+    <string name="tip_export_nodata">無數據可導出</string>
+    <string name="tip_forward_number_settings">啓用轉接功能請先設定轉接號碼</string>
+    <string name="guide">操作指引</string>
+    <string name="app_start">開始體驗</string>
+    <string name="thanks">特別感謝</string>
+    <string name="bell_ui_weibo">美女UI微博: http://t.qq.com/ccf1229</string>
+    <string name="chaoge_weibo">超哥微博: http://t.qq.com/xm_zzcclp2012</string>
+    <string name="thanks_content">在這里特別感謝美女UI非常耐心的設計界面，同時也非常感謝超哥對我轉接想法的肯定,沒有你們的支持也就沒有“我轉接”,再次謝謝你們！</string>
+
+</resources>

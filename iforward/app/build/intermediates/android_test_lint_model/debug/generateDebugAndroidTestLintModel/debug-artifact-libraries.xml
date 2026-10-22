@@ -1,0 +1,10 @@
+<libraries>
+  <library
+      name="__local_aars__:D:\docs\Codex\iforward-modern\app\libs\android-support-v4.jar:unspecified@jar"
+      jars="D:\docs\Codex\iforward-modern\app\libs\android-support-v4.jar"
+      resolved="__local_aars__:D:\docs\Codex\iforward-modern\app\libs\android-support-v4.jar:unspecified"
+      provided="true"/>
+  <library
+      name=":@@:app::debug"
+      project=":app"/>
+</libraries>

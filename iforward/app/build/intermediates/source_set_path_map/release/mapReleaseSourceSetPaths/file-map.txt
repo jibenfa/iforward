@@ -1,0 +1,7 @@
+cn.xm.hanley.iforward.activity.app-pngs-0 D:\docs\Codex\iforward-modern\app\build\generated\res\pngs\release
+cn.xm.hanley.iforward.activity.app-resValues-1 D:\docs\Codex\iforward-modern\app\build\generated\res\resValues\release
+cn.xm.hanley.iforward.activity.app-mergeReleaseResources-2 D:\docs\Codex\iforward-modern\app\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
+cn.xm.hanley.iforward.activity.app-mergeReleaseResources-3 D:\docs\Codex\iforward-modern\app\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+cn.xm.hanley.iforward.activity.app-release-4 D:\docs\Codex\iforward-modern\app\build\intermediates\merged_res\release\mergeReleaseResources
+cn.xm.hanley.iforward.activity.app-main-5 D:\docs\Codex\iforward-modern\app\src\main\res
+cn.xm.hanley.iforward.activity.app-release-6 D:\docs\Codex\iforward-modern\app\src\release\res

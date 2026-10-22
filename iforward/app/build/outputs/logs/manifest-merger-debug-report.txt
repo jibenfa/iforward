@@ -1,0 +1,111 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:2:1-18:12
+	package
+		INJECTED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_CONTACTS
+ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:3:5-72
+	android:name
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:3:22-69
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:4:5-69
+	android:name
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:4:22-66
+application
+ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:5:5-17:19
+INJECTED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:5:5-17:19
+	android:extractNativeLibs
+		INJECTED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml
+	android:label
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:5:120-152
+	android:roundIcon
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:5:80-119
+	android:icon
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:5:45-79
+	android:allowBackup
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:5:18-44
+	android:theme
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:5:153-184
+activity#cn.xm.hanley.iforward.TabSwipePage
+ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:6:9-8:20
+	android:exported
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:6:69-92
+	android:theme
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:6:93-131
+	android:name
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:6:19-68
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:7:13-156
+action#android.intent.action.MAIN
+ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:7:28-80
+	android:name
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:7:36-77
+category#android.intent.category.LAUNCHER
+ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:7:80-140
+	android:name
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:7:90-137
+activity#cn.xm.hanley.iforward.activity.GuidePageActivity
+ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:9:9-175
+	android:exported
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:9:83-107
+	android:theme
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:9:108-172
+	android:name
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:9:19-82
+activity#cn.xm.hanley.iforward.activity.ContactsActivity
+ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:10:9-109
+	android:exported
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:10:82-106
+	android:name
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:10:19-81
+activity#cn.xm.hanley.iforward.activity.AboutActivity
+ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:11:9-140
+	android:exported
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:11:79-103
+	android:theme
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:11:104-137
+	android:name
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:11:19-78
+activity#cn.xm.hanley.iforward.activity.SelContactActivity
+ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:12:9-111
+	android:exported
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:12:84-108
+	android:name
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:12:19-83
+activity#cn.xm.hanley.iforward.activity.CallLogsActivity
+ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:13:9-109
+	android:exported
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:13:82-106
+	android:name
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:13:19-81
+service#cn.xm.hanley.iforward.receiver.ForwardScreeningService
+ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:14:9-16:19
+	android:exported
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:14:88-111
+	android:permission
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:14:112-174
+	android:name
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:14:18-87
+intent-filter#action:name:android.telecom.CallScreeningService
+ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:15:13-106
+action#android.telecom.CallScreeningService
+ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:15:28-90
+	android:name
+		ADDED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:15:36-87
+uses-sdk
+INJECTED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml
+INJECTED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml

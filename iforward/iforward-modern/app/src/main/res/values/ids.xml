@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item name="block_stranger" type="id"/>
+    <item name="block_black" type="id"/>
+    <item name="block_all" type="id"/>
+    <item name="enable_block" type="id"/>
+    <item name="disable_block" type="id"/>
+    <item name="group_block_type" type="id"/>
+    <item name="group_system_voice" type="id"/>
+    <item name="system_voice_empty" type="id"/>
+    <item name="system_voice_calling" type="id"/>
+    <item name="system_voice_out_of_service" type="id"/>
+    <item name="system_voice_busy" type="id"/>
+    <item name="system_voice_poweroff" type="id"/>
+    <item name="system_voice_cancle" type="id"/>
+    <item name="contactName" type="id"/>
+    <item name="contactNumber" type="id"/>
+    <item name="lv_checkbox" type="id"/>
+    <item name="btn_ok" type="id"/>
+    <item name="btn_cancle" type="id"/>
+    <item name="btn_fnumber" type="id"/>
+    <item name="btn_add_forward_num" type="id"/>
+    <item name="btn_flist" type="id"/>
+    <item name="edit_fnumber" type="id"/>
+    <item name="tip_flist" type="id"/>
+    <item name="tip_number" type="id"/>
+    <item name="menu_settings" type="id"/>
+    <item name="menu_about" type="id"/>
+    <item name="btn_history" type="id"/>
+	<item name="history_number" type="id"/>
+	<item name="history_name" type="id"/>
+	<item name="history_date" type="id"/>
+	<item name="history_time" type="id"/>	
+	<item name="history_transferred" type="id"/>
+	<item name="forward_number" type="id"/>
+	<item name="forward_name" type="id"/>
+	<item name="forward_delete" type="id"/>	
+	<item name="export" type="id"/>
+	<item name="clear" type="id"/>
+	<item name="number_setings" type="id"/>
+	<item name="display_number" type="id"/>
+	<item name="manually_number" type="id" />
+	<item name="memo" type="id" />
+	<item name="scan_progress" type="id"/>
+	<item name="title_action_bar" type="id"/>
+	<item name="tip_begin" type="id"/>
+</resources>

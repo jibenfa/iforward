@@ -1,0 +1,17 @@
+<dependencies>
+  <compile
+      roots="__local_aars__:D:\docs\Codex\iforward-modern\app\libs\android-support-v4.jar:unspecified@jar,:@@:app::debug">
+    <dependency
+        name="__local_aars__:D:\docs\Codex\iforward-modern\app\libs\android-support-v4.jar:unspecified@jar"
+        simpleName="__local_aars__:D:\docs\Codex\iforward-modern\app\libs\android-support-v4.jar"/>
+    <dependency
+        name=":@@:app::debug"
+        simpleName="artifacts::app"/>
+  </compile>
+  <package
+      roots="__local_aars__:D:\docs\Codex\iforward-modern\app\libs\android-support-v4.jar:unspecified@jar">
+    <dependency
+        name="__local_aars__:D:\docs\Codex\iforward-modern\app\libs\android-support-v4.jar:unspecified@jar"
+        simpleName="__local_aars__:D:\docs\Codex\iforward-modern\app\libs\android-support-v4.jar"/>
+  </package>
+</dependencies>

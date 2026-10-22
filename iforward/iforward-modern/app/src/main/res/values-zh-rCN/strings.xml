@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">我转接</string>
+    <string name="no_data">无数据</string>
+    <string name="ok">确定</string>
+    <string name="cancle">取消</string>
+    <string name="forward_number">转接号码</string>
+    <string name="forward_object">转接对象</string>
+    <string name="forward_history">转接历史</string>
+    <string name="forward_object_default_display">转接对象(0)</string>
+    <string name="tip_no_content">需录入转接号码</string>
+    <string name="tip_no_item_selected">未曾选择</string>
+    <string name="settings">设置</string>
+    <string name="about">关于</string>
+    <string name="app_intrudoction">来电拦截的手机软件，目前来说都比较多，而且功能远远不仅仅局限于拦截号码的范畴了，软件开发商早就将拦截功能作为软件的一个小功能附加在自己的软件中，这方面比较有知名度的，例如：360手机卫士、安管家。他们研发的产品不仅仅是拦截号码那么简单，如杀毒功能，而且还是云查杀，流量监控，内存清理，防盗功能等。可以说他们做的非常完善、优秀了。但是由于360手机卫士又或者是安管家，两款软件的功能是在太多了，加上手机还安装了QQ、微薄一大堆有后台服务的软件，手机内存所剩无几，我时常说手机卡的P暴，这让我非常惆怅，身边的同事朋友都有同感，于是萌发仅仅开发一个有拦截来电的功能的小软件，更准确的说应该是转接，因为让用户决定转接到哪个号码，功能会扩大化，可以用于拦截骚扰，也可以转移到你家的座机上，家人帮你接紧急电话。不是每个人的需求都一样，既然想到了我就开始这么干了!最重要的是App免费并且开源.</string>
+    <string name="contact">联系方式</string>
+    <string name="email">Gmail: tanghly@gmail.com</string>
+    <string name="google">Google+: http://gplus.to/hanleytowne</string>
+    <string name="twitter">twitter: http://www.facebook.com/hanleytowne</string>
+    <string name="facebook">facebook: http://www.facebook.com/hanleytowne</string>
+    <string name="weibo">新浪微博: http://weibo.com/tanghanlin</string>
+    <string name="source_code">SourceCode:http://code.google.com/p/iforward/</string>
+    <string name="manually_add">手动添加</string>
+    <string name="transferred_to">来电被转至</string>
+    <string name="delete">移除</string>
+    <string name="export">导出</string>
+    <string name="clear">清除</string>
+    <string name="manually_add_number">手动添加号码</string>
+    <string name="contacts_add_number">从联系人选择</string>
+    <string name="calllogs_add_number">从通话记录选择</string>
+    <string name="add_forward_object">添加转接对象</string>
+    <string name="tip">友情提示</string>
+    <string name="tip_clear">清除转接历史?</string>
+    <string name="memo">备注名称</string>
+    <string name="mobile_tel_num">手机|座机</string>
+    <string name="tip_no_number_settings">未设置号码</string>
+    <string name="number_settings">号码设置</string>
+    <string name="disable_forward_number">禁用号码转接</string>
+    <string name="tip_history_export_to">历史记录导出至:</string>
+    <string name="tip_export_success">导出成功</string>
+    <string name="tip_export_nodata">无数据导出</string>
+    <string name="tip_forward_number_settings">启用转接功能请先设置转接号码</string>
+    <string name="guide">操作指引</string>
+    <string name="app_start">开始体验</string>
+     <string name="thanks">特别感谢</string>
+    <string name="bell_ui_weibo">美女UI微博: http://t.qq.com/ccf1229</string>
+    <string name="chaoge_weibo">超哥微博: http://t.qq.com/xm_zzcclp2012</string>
+    <string name="thanks_content">在这里特别感谢美女UI非常耐心的设计界面，同时也非常感谢超哥对我转接想法的肯定,没有你们的支持也就没有 “我转接”,再次谢谢你们！</string>
+    
+</resources>

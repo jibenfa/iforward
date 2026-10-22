@@ -1,0 +1,42 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'cn.xm.hanley.iforward.activity'
+    compileSdk 35
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    defaultConfig {
+        applicationId 'cn.xm.hanley.iforward.activity'
+        minSdk 29
+        targetSdk 35
+        versionCode 3
+        versionName '2.0.0'
+    }
+
+    lint {
+        abortOnError false
+        checkReleaseBuilds false
+        checkDependencies false
+    }
+}
+
+// 将生成的 APK 统一命名为“安心转接.apk”。
+android.applicationVariants.all { variant ->
+    variant.outputs.all {
+        outputFileName = "安心转接.apk"
+    }
+}
+
+tasks.matching { it.name.startsWith("lint") }.configureEach {
+    enabled = false
+}
+
+dependencies {
+    implementation files('libs/android-support-v4.jar')
+}

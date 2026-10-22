@@ -1,0 +1,102 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="cn.xm.hanley.iforward.activity"
+4    android:versionCode="3"
+5    android:versionName="2.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.READ_CONTACTS" />
+11-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:3:5-72
+11-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:3:22-69
+12    <uses-permission android:name="android.permission.CALL_PHONE" />
+12-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:4:5-69
+12-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:4:22-66
+13
+14    <application
+14-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:5:5-17:19
+15        android:allowBackup="true"
+15-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:5:18-44
+16        android:extractNativeLibs="false"
+17        android:icon="@mipmap/ic_launcher"
+17-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:5:45-79
+18        android:label="@string/app_name"
+18-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:5:120-152
+19        android:roundIcon="@mipmap/ic_launcher"
+19-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:5:80-119
+20        android:theme="@style/AppTheme" >
+20-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:5:153-184
+21        <activity
+21-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:6:9-8:20
+22            android:name="cn.xm.hanley.iforward.TabSwipePage"
+22-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:6:19-68
+23            android:exported="true"
+23-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:6:69-92
+24            android:theme="@style/CustomActionBar" >
+24-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:6:93-131
+25            <intent-filter>
+25-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:7:13-156
+26                <action android:name="android.intent.action.MAIN" />
+26-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:7:28-80
+26-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:7:36-77
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:7:80-140
+28-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:7:90-137
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:9:9-175
+32            android:name="cn.xm.hanley.iforward.activity.GuidePageActivity"
+32-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:9:19-82
+33            android:exported="false"
+33-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:9:83-107
+34            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+34-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:9:108-172
+35        <activity
+35-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:10:9-109
+36            android:name="cn.xm.hanley.iforward.activity.ContactsActivity"
+36-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:10:19-81
+37            android:exported="false" />
+37-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:10:82-106
+38        <activity
+38-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:11:9-140
+39            android:name="cn.xm.hanley.iforward.activity.AboutActivity"
+39-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:11:19-78
+40            android:exported="false"
+40-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:11:79-103
+41            android:theme="@style/AboutTheme" />
+41-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:11:104-137
+42        <activity
+42-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:12:9-111
+43            android:name="cn.xm.hanley.iforward.activity.SelContactActivity"
+43-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:12:19-83
+44            android:exported="false" />
+44-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:12:84-108
+45        <activity
+45-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:13:9-109
+46            android:name="cn.xm.hanley.iforward.activity.CallLogsActivity"
+46-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:13:19-81
+47            android:exported="false" />
+47-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:13:82-106
+48
+49        <service
+49-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:14:9-16:19
+50            android:name="cn.xm.hanley.iforward.receiver.ForwardScreeningService"
+50-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:14:18-87
+51            android:exported="true"
+51-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:14:88-111
+52            android:permission="android.permission.BIND_SCREENING_SERVICE" >
+52-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:14:112-174
+53            <intent-filter>
+53-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:15:13-106
+54                <action android:name="android.telecom.CallScreeningService" />
+54-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:15:28-90
+54-->D:\docs\Codex\iforward-modern\app\src\main\AndroidManifest.xml:15:36-87
+55            </intent-filter>
+56        </service>
+57    </application>
+58
+59</manifest>

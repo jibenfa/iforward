@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_teal">#087F78</color>
+    <color name="brand_teal_dark">#075F5A</color>
+    <color name="divider">#E3EAEC</color>
+    <color name="page_background">#F3F7F8</color>
+    <color name="text_primary">#183238</color>
+    <color name="text_secondary">#64777C</color>
+    <color name="warning">#A36B2B</color>
+    <item name="block_all" type="id"/>
+    <item name="block_black" type="id"/>
+    <item name="block_stranger" type="id"/>
+    <item name="btn_add_forward_num" type="id"/>
+    <item name="btn_cancle" type="id"/>
+    <item name="btn_flist" type="id"/>
+    <item name="btn_fnumber" type="id"/>
+    <item name="btn_history" type="id"/>
+    <item name="btn_ok" type="id"/>
+    <item name="clear" type="id"/>
+    <item name="contactName" type="id"/>
+    <item name="contactNumber" type="id"/>
+    <item name="disable_block" type="id"/>
+    <item name="display_number" type="id"/>
+    <item name="edit_fnumber" type="id"/>
+    <item name="enable_block" type="id"/>
+    <item name="export" type="id"/>
+    <item name="forward_delete" type="id"/>
+    <item name="forward_name" type="id"/>
+    <item name="forward_number" type="id"/>
+    <item name="group_block_type" type="id"/>
+    <item name="group_system_voice" type="id"/>
+    <item name="history_date" type="id"/>
+    <item name="history_name" type="id"/>
+    <item name="history_number" type="id"/>
+    <item name="history_time" type="id"/>
+    <item name="history_transferred" type="id"/>
+    <item name="lv_checkbox" type="id"/>
+    <item name="manually_number" type="id"/>
+    <item name="memo" type="id"/>
+    <item name="menu_about" type="id"/>
+    <item name="menu_settings" type="id"/>
+    <item name="number_setings" type="id"/>
+    <item name="scan_progress" type="id"/>
+    <item name="system_voice_busy" type="id"/>
+    <item name="system_voice_calling" type="id"/>
+    <item name="system_voice_cancle" type="id"/>
+    <item name="system_voice_empty" type="id"/>
+    <item name="system_voice_out_of_service" type="id"/>
+    <item name="system_voice_poweroff" type="id"/>
+    <item name="tip_begin" type="id"/>
+    <item name="tip_flist" type="id"/>
+    <item name="tip_number" type="id"/>
+    <item name="title_action_bar" type="id"/>
+    <string name="about">About</string>
+    <string name="add_forward_object">who need forward?</string>
+    <string name="app_intrudoction">Sometimes we don\'t want to answer the phone,and can\'t hang up either,It made us very distressed,But now I got the solution.Just add the phone number in forward number list ,when the number call you,auto hang up and forward to another number that you has set! The most important is free and open source.</string>
+    <string name="app_name">安心转接</string>
+    <string name="app_start">Enter</string>
+    <string name="app_subtitle">按运营商呼叫转移规则处理来电</string>
+    <string name="bell_ui_weibo">Bell UI weibo: http://t.qq.com/ccf1229</string>
+    <string name="calllogs_add_number">load from calllogs</string>
+    <string name="cancle">Cancle</string>
+    <string name="chaoge_weibo">zzc weibo: http://t.qq.com/xm_zzcclp2012</string>
+    <string name="clear">clear</string>
+    <string name="contact">Contact</string>
+    <string name="contacts_add_number">load from contacts</string>
+    <string name="delete">remove</string>
+    <string name="disable_forward_number">disable forward function</string>
+    <string name="email">Gmail: tanghly@gmail.com</string>
+    <string name="export">export</string>
+    <string name="facebook">facebook: http://www.facebook.com/hanleytowne</string>
+    <string name="forward_history">History</string>
+    <string name="forward_number">Number</string>
+    <string name="forward_object">Object</string>
+    <string name="forward_object_default_display">Object(0)</string>
+    <string name="google">Google+: http://gplus.to/hanleytowne</string>
+    <string name="guide">Guide</string>
+    <string name="manually_add">manually add</string>
+    <string name="manually_add_number">manually add number</string>
+    <string name="memo">memo info</string>
+    <string name="mobile_tel_num">moble|Landline</string>
+    <string name="more_options">更多选项</string>
+    <string name="no_data">no data</string>
+    <string name="number_page_hint">设置运营商“遇忙转接”的目标号码</string>
+    <string name="number_page_title">转接号码</string>
+    <string name="number_settings">number settings</string>
+    <string name="ok">OK</string>
+    <string name="settings">settings</string>
+    <string name="source_code">SourceCode:http://code.google.com/p/iforward/</string>
+    <string name="thanks">Thanks</string>
+    <string name="thanks_content">Special thanks to the a beautiful UI very patient design interface, and also very grateful to the zcc-brother of my adapter idea certainly, without your support, there would be no "iForward", thank you so so so much!</string>
+    <string name="tip">tip</string>
+    <string name="tip_clear">clear history?</string>
+    <string name="tip_export_nodata">export no data</string>
+    <string name="tip_export_success">export success</string>
+    <string name="tip_forward_number_settings">need to set the forward number before start</string>
+    <string name="tip_history_export_to">history export to:</string>
+    <string name="tip_no_content">no content</string>
+    <string name="tip_no_item_selected">no item selected</string>
+    <string name="tip_no_number_settings">not set the number</string>
+    <string name="transferred_to">transferred to</string>
+    <string name="twitter">twitter: http://www.facebook.com/hanleytowne</string>
+    <string name="weibo">weibo: http://weibo.com/tanghanlin</string>
+    <style name="AboutTheme" parent="android:style/Theme.Material.Light">
+        <item name="android:colorAccent">@color/brand_teal</item>
+    </style>
+    <style name="AppTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:colorAccent">@color/brand_teal</item>
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:navigationBarColor">@android:color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+    <style name="CustomActionBar" parent="@style/AppTheme"/>
+    <style name="MainTab">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">42dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/bg_tab_default</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+</resources>

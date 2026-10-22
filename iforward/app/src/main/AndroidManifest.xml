@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <application android:allowBackup="true" android:icon="@mipmap/ic_launcher" android:roundIcon="@mipmap/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
+        <activity android:name="cn.xm.hanley.iforward.TabSwipePage" android:exported="true" android:theme="@style/CustomActionBar">
+            <intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter>
+        </activity>
+        <activity android:name="cn.xm.hanley.iforward.activity.GuidePageActivity" android:exported="false" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+        <activity android:name="cn.xm.hanley.iforward.activity.ContactsActivity" android:exported="false" />
+        <activity android:name="cn.xm.hanley.iforward.activity.AboutActivity" android:exported="false" android:theme="@style/AboutTheme" />
+        <activity android:name="cn.xm.hanley.iforward.activity.SelContactActivity" android:exported="false" />
+        <activity android:name="cn.xm.hanley.iforward.activity.CallLogsActivity" android:exported="false" />
+        <service android:name="cn.xm.hanley.iforward.receiver.ForwardScreeningService" android:exported="true" android:permission="android.permission.BIND_SCREENING_SERVICE">
+            <intent-filter><action android:name="android.telecom.CallScreeningService" /></intent-filter>
+        </service>
+    </application>
+</manifest>

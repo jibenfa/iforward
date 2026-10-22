@@ -1,13 +1,10 @@
-## 已停止更新
-
 # iforward
 电话转接app
 
 
-Google Play : https://play.google.com/store/apps/details?id=cn.xm.hanley.iforward.activity&feature=search_result#?t=W251bGwsMSwxLDEsImNuLnhtLmhhbmxleS5pZm9yd2FyZC5hY3Rpdml0eSJd
-
 开发进度
 
+2026-10-22 在原作者基础上，对Android 10进行了适配，并进行了界面优化，详见项目中readme.md
 
 2014-11-06 2.0版正式启动
 
@@ -58,7 +55,7 @@ Sometimes we don't want to answer the phone,and can't hang up either,It made us 
 
 
 
-Contact
+Contact(original author)
 
 
 Gmail: hanlytowne@gmail.com | tanghly@gmail.com
@@ -70,3 +67,4 @@ WeiBo:http://www.weibo.com/tanghanlin
 Twitter: https://twitter.com/hanleytang
 
 FaceBook: https://www.facebook.com/hanleytang
+

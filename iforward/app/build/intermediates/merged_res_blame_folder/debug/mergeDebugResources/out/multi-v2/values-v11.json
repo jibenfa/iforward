@@ -1,0 +1,52 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-mergeDebugResources-2:\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "D:\\docs\\Codex\\iforward-modern\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "576"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "10",
+                        "endColumns": "12",
+                        "endOffsets": "606"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "cn.xm.hanley.iforward.activity.app-mergeDebugResources-2:/values-v11/values-v11.xml",
+            "map": [
+                {
+                    "source": "D:\\docs\\Codex\\iforward-modern\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "523"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "554"
+                    }
+                }
+            ]
+        }
+    ]
+}
