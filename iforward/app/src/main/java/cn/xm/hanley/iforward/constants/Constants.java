@@ -42,6 +42,9 @@ public class Constants {
 	public final static String SPS_FORWARD = "forward";
 	
 	public final static String SPS_FORWARD_NUMBER = "forward_number";
+	public final static String SPS_TIME_WINDOW_ENABLED = "time_window_enabled";
+	public final static String SPS_TIME_WINDOW_START = "time_window_start";
+	public final static String SPS_TIME_WINDOW_END = "time_window_end";
 	
 	public final static String SPS_GUIDE_FLAG = "guide_flag";
 }

@@ -20,6 +20,10 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Switch;
+import android.app.TimePickerDialog;
+import android.widget.TimePicker;
+import java.util.Locale;
 
 /**
  * 设置转接号码
@@ -33,6 +37,9 @@ public class CustomFragment extends Fragment{
 	private Button numberSettings;
 	private TextView displayNumber;
 	private TextView tipBegin;
+	private Switch timeWindowSwitch;
+	private Button startTimeButton;
+	private Button endTimeButton;
 	protected static final int CODE_REQUEST_CONTACT = 1;
 
 	@Override
@@ -46,6 +53,7 @@ public class CustomFragment extends Fragment{
 	private void init(){
 		SharedPreferences share = getActivity().getSharedPreferences(Constants.SPS_FORWARD,Context.MODE_PRIVATE);
 		String fnumber = share.getString(Constants.SPS_FORWARD_NUMBER, "");
+		initTimeWindow(share);
 		if(null != fnumber && fnumber.length() > 0){
 			displayNumber.setText(fnumber);
 			tipBegin.setVisibility(View.GONE);
@@ -68,10 +76,55 @@ public class CustomFragment extends Fragment{
 		numberSettings = (Button)getActivity().findViewById(R.id.number_setings);
 		displayNumber = (TextView)getActivity().findViewById(R.id.display_number);
 		tipBegin = (TextView)getActivity().findViewById(R.id.tip_begin);
+		timeWindowSwitch = (Switch)getActivity().findViewById(R.id.time_window_switch);
+		startTimeButton = (Button)getActivity().findViewById(R.id.time_window_start);
+		endTimeButton = (Button)getActivity().findViewById(R.id.time_window_end);
 	}
 	
 	private void setListeners(){
 		numberSettings.setOnClickListener(btnClickListener);
+		startTimeButton.setOnClickListener(v -> showTimePicker(true));
+		endTimeButton.setOnClickListener(v -> showTimePicker(false));
+		timeWindowSwitch.setOnCheckedChangeListener((button, checked) -> {
+			getActivity().getSharedPreferences(Constants.SPS_FORWARD, Context.MODE_PRIVATE)
+					.edit().putBoolean(Constants.SPS_TIME_WINDOW_ENABLED, checked).apply();
+			updateTimeWindowControls();
+		});
+	}
+
+	private void initTimeWindow(SharedPreferences preferences) {
+		int start = preferences.getInt(Constants.SPS_TIME_WINDOW_START, 9 * 60);
+		int end = preferences.getInt(Constants.SPS_TIME_WINDOW_END, 18 * 60);
+		timeWindowSwitch.setChecked(preferences.getBoolean(Constants.SPS_TIME_WINDOW_ENABLED, false));
+		updateTimeButton(startTimeButton, R.string.time_window_start, start);
+		updateTimeButton(endTimeButton, R.string.time_window_end, end);
+		updateTimeWindowControls();
+	}
+
+	private void updateTimeWindowControls() {
+		boolean enabled = timeWindowSwitch.isChecked();
+		startTimeButton.setEnabled(enabled);
+		endTimeButton.setEnabled(enabled);
+		startTimeButton.setAlpha(enabled ? 1.0f : 0.55f);
+		endTimeButton.setAlpha(enabled ? 1.0f : 0.55f);
+	}
+
+	private void showTimePicker(boolean isStart) {
+		SharedPreferences preferences = getActivity().getSharedPreferences(Constants.SPS_FORWARD, Context.MODE_PRIVATE);
+		String key = isStart ? Constants.SPS_TIME_WINDOW_START : Constants.SPS_TIME_WINDOW_END;
+		int defaultValue = isStart ? 9 * 60 : 18 * 60;
+		int current = preferences.getInt(key, defaultValue);
+		new TimePickerDialog(getActivity(), (TimePicker view, int hour, int minute) -> {
+			int value = hour * 60 + minute;
+			preferences.edit().putInt(key, value).apply();
+			updateTimeButton(isStart ? startTimeButton : endTimeButton,
+					isStart ? R.string.time_window_start : R.string.time_window_end, value);
+		}, current / 60, current % 60, true).show();
+	}
+
+	private void updateTimeButton(Button button, int labelResource, int minuteOfDay) {
+		String time = String.format(Locale.getDefault(), "%02d:%02d", minuteOfDay / 60, minuteOfDay % 60);
+		button.setText(getString(labelResource, time));
 	}
 	
 	

@@ -89,6 +89,11 @@
     <string name="source_code">SourceCode:http://code.google.com/p/iforward/</string>
     <string name="thanks">Thanks</string>
     <string name="thanks_content">Special thanks to the a beautiful UI very patient design interface, and also very grateful to the zcc-brother of my adapter idea certainly, without your support, there would be no "iForward", thank you so so so much!</string>
+    <string name="time_window_enable">Enable time restriction</string>
+    <string name="time_window_end">End %1$s</string>
+    <string name="time_window_hint">Only matching callers during this time are rejected. Overnight ranges are supported.</string>
+    <string name="time_window_start">Start %1$s</string>
+    <string name="time_window_title">Forwarding time window</string>
     <string name="tip">tip</string>
     <string name="tip_clear">clear history?</string>
     <string name="tip_export_nodata">export no data</string>

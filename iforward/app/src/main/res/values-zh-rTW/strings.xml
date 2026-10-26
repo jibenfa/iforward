@@ -51,5 +51,10 @@
     <string name="bell_ui_weibo">美女UI微博: http://t.qq.com/ccf1229</string>
     <string name="chaoge_weibo">超哥微博: http://t.qq.com/xm_zzcclp2012</string>
     <string name="thanks_content">在這里特別感謝美女UI非常耐心的設計界面，同時也非常感謝超哥對我轉接想法的肯定,沒有你們的支持也就沒有“我轉接”,再次謝謝你們！</string>
+    <string name="time_window_title">轉接時段</string>
+    <string name="time_window_enable">啟用時段限制</string>
+    <string name="time_window_hint">僅在此時段內拒接符合號碼條件的來電；支援跨午夜設定。</string>
+    <string name="time_window_start">開始 %1$s</string>
+    <string name="time_window_end">結束 %1$s</string>
 
 </resources>

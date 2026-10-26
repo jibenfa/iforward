@@ -11,6 +11,7 @@ import java.util.List;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
+import java.util.Calendar;
 
 import cn.xm.hanley.iforward.constants.Constants;
 import cn.xm.hanley.iforward.domain.Contact;
@@ -31,7 +32,7 @@ public class ForwardScreeningService extends CallScreeningService {
                 Uri handle = details.getHandle();
                 String incoming = handle == null ? null : handle.getSchemeSpecificPart();
                 matchedContact = findForwardContact(incoming);
-                reject = matchedContact != null;
+                reject = matchedContact != null && isWithinForwardTimeWindow();
             }
         } catch (RuntimeException e) {
             Log.e(TAG, "Could not check forwarding list; allowing call", e);
@@ -44,6 +45,22 @@ public class ForwardScreeningService extends CallScreeningService {
         }
         respondToCall(details, response.build());
         if (reject) saveRejectedCall(matchedContact);
+    }
+
+    private boolean isWithinForwardTimeWindow() {
+        SharedPreferences preferences = getSharedPreferences(Constants.SPS_FORWARD, MODE_PRIVATE);
+        if (!preferences.getBoolean(Constants.SPS_TIME_WINDOW_ENABLED, false)) return true;
+
+        int start = preferences.getInt(Constants.SPS_TIME_WINDOW_START, 9 * 60);
+        int end = preferences.getInt(Constants.SPS_TIME_WINDOW_END, 18 * 60);
+        Calendar now = Calendar.getInstance();
+        int current = now.get(Calendar.HOUR_OF_DAY) * 60 + now.get(Calendar.MINUTE);
+
+        // Equal endpoints mean the selected window covers the full day.
+        if (start == end) return true;
+        if (start < end) return current >= start && current < end;
+        // Also support windows that cross midnight, such as 22:00–07:00.
+        return current >= start || current < end;
     }
 
     private Contact findForwardContact(String incoming) {
