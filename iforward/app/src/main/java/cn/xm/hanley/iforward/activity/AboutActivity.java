@@ -6,6 +6,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.MenuItem;
 import android.widget.TextView;
 
@@ -18,12 +19,20 @@ public class AboutActivity extends Activity {
 		
 		ActionBar actionBar = getActionBar();
 		if (actionBar != null) {
-			actionBar.setCustomView(R.layout.anction_bar);
-			actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM | ActionBar.DISPLAY_HOME_AS_UP | ActionBar.DISPLAY_SHOW_HOME);
+			android.view.View customView = getLayoutInflater().inflate(R.layout.anction_bar, null);
+			ActionBar.LayoutParams layoutParams = new ActionBar.LayoutParams(
+					ActionBar.LayoutParams.MATCH_PARENT,
+					ActionBar.LayoutParams.MATCH_PARENT,
+					Gravity.CENTER);
+			actionBar.setCustomView(customView, layoutParams);
+			actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM | ActionBar.DISPLAY_HOME_AS_UP);
+			actionBar.setDisplayShowHomeEnabled(false);
 			actionBar.setDisplayHomeAsUpEnabled(true);
-			TextView titleActionbar = findViewById(R.id.title_action_bar);
+			TextView titleActionbar = customView.findViewById(R.id.title_action_bar);
 			if (titleActionbar != null) {
 				titleActionbar.setText(getResources().getString(R.string.about));
+				int paddingEnd = (int) (48 * getResources().getDisplayMetrics().density);
+				titleActionbar.setPadding(0, 0, paddingEnd, 0);
 			}
 		}
 

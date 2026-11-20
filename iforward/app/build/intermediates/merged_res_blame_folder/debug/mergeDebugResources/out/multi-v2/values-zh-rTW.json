@@ -4,7 +4,7 @@
             "outputFile": "cn.xm.hanley.iforward.activity.app-mergeDebugResources-2:/values-zh-rTW/values-zh-rTW.xml",
             "map": [
                 {
-                    "source": "D:\\docs\\Codex\\iforward-modern\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "source": "D:\\docs\\GitHub\\iforward\\iforward\\app\\src\\main\\res\\values-zh-rTW\\strings.xml",
                     "from": {
                         "startLines": "18,48,56,58,52,54,55,57,51,53,59,60,49,50,27,63,3,40,4,26,10,23,25,21,34,22,13,11,12,14,39,19,24,30,31,5,8,7,6,33,9,17,64,65,42,45,43,44,41,28,29,37,36,38,35,15,16,32,20",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

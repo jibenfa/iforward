@@ -135,19 +135,26 @@ public class TabSwipePage extends FragmentActivity {
         final int initialRight = root.getPaddingRight();
         final int initialBottom = root.getPaddingBottom();
         root.setOnApplyWindowInsetsListener((view, insets) -> {
-            view.setPadding(initialLeft, initialTop + insets.getSystemWindowInsetTop(), initialRight,
-                    initialBottom + insets.getSystemWindowInsetBottom());
-            return insets.consumeSystemWindowInsets();
+            @SuppressWarnings("deprecation")
+            int topInset = insets.getSystemWindowInsetTop();
+            @SuppressWarnings("deprecation")
+            int bottomInset = insets.getSystemWindowInsetBottom();
+            view.setPadding(initialLeft, initialTop + topInset, initialRight, initialBottom + bottomInset);
+            @SuppressWarnings("deprecation")
+            android.view.WindowInsets consumed = insets.consumeSystemWindowInsets();
+            return consumed;
         });
         root.requestApplyInsets();
     }
 
+    @SuppressWarnings("deprecation")
     private void updateSelectedTab(int selected) {
         if (tabViews == null) return;
         for (int i = 0; i < tabViews.length; i++) {
             TextView tab = tabViews[i];
             boolean active = i == selected;
-            tab.setTextColor(getResources().getColor(active ? R.color.brand_teal : R.color.text_secondary));
+            int colorRes = active ? R.color.brand_teal : R.color.text_secondary;
+            tab.setTextColor(getResources().getColor(colorRes));
             tab.setTypeface(Typeface.DEFAULT, active ? Typeface.BOLD : Typeface.NORMAL);
             tab.setBackgroundResource(active ? R.drawable.bg_tab_selected : R.drawable.bg_tab_default);
         }
@@ -186,7 +193,7 @@ public class TabSwipePage extends FragmentActivity {
 		return super.onOptionsItemSelected(item);
 	}
 
-
+    @SuppressWarnings("deprecation")
     public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
         public SectionsPagerAdapter(FragmentManager fm) {

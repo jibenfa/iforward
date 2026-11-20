@@ -11,6 +11,11 @@
     <style name="CustomActionBar" parent="@style/AppTheme" />
     <style name="AboutTheme" parent="android:style/Theme.Material.Light">
         <item name="android:colorAccent">@color/brand_teal</item>
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:navigationBarColor">@android:color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowActionBarOverlay">false</item>
     </style>
     <style name="MainTab">
         <item name="android:layout_width">0dp</item>
