@@ -1,70 +1,143 @@
-# iforward
-电话转接app
+# 安心转接 (iForward)
 
+<p align="center">
+  <strong>一款轻量、纯粹、基于运营商呼叫转移规则的 Android 智能来电过滤与转接工具</strong>
+</p>
 
-开发进度
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Android%2010%2B%20(API%2029%2B)-brightgreen.svg" alt="Android Version" />
+  <img src="https://img.shields.io/badge/Target%20SDK-35-blue.svg" alt="Target SDK" />
+  <img src="https://img.shields.io/badge/License-Apache--2.0%20%2F%20GPL-orange.svg" alt="License" />
+</p>
 
-2026-10-22 在原作者基础上，对Android 10进行了适配，并进行了界面优化，详见项目中readme.md
+---
 
-2014-11-06 2.0版正式启动
+## 📖 项目简介
 
-2012-8-29 正式入住Google Play
+**安心转接（iForward）** 是一个专注于“来电精准转接与拟真拦截”的轻量级开源 Android 应用。
 
-2012-8-28 引导界面优化(由美女同事重新设计)
+日常生活中，我们常常遇到某些不想接听又无法生硬挂断的电话（例如某些特定骚扰、特定联系人），或者在开会、休息、特定时段希望将电话委托给家人或助理接听。
 
-2012-8-27 添加功能引导说明，引导支持简繁英
+与市面上动辄几十上百兆、常驻庞大后台、附带各种无关功能的“手机管家/卫士全家桶”不同，**安心转接保持极致轻量、零常驻守护进程、无广告、纯净开源**。它将 Android 现代系统的来电过滤能力与运营商底层的“呼叫转移”业务结合，优雅实现对特定来电的无感转移与拟真拦截。
 
-2012-8-24 变量命名规范,对界面小幅调整,准备进驻Google Play
+---
 
-2012-8-23 拦截对象添加从通话记录选择
+## 💡 核心原理
 
-2012-8-22 修复列表时间显示、历史转接重复bug
+**安心转接的拦截原理，本质是“定向触发运营商的遇忙转移”**：
 
-2012-8-21 加入进度条,删除废弃资源
+```
+[来电呼入]
+   │
+   ▼
+[Android 官方 CallScreeningService 过滤]
+   │
+   ├─► 命中转接列表 & 在生效时间段内？
+   │      │
+   │      ├─ 是 ──► 调用原生接口拒接（setDisallowCall & setRejectCall）
+   │      │          │
+   │      │          ▼
+   │      │     [手机直接向基站返回“忙线/占线”]
+   │      │          │
+   │      │          ▼
+   │      │     [运营商识别遇忙，触发预设的“遇忙呼叫转移”]
+   │      │          │
+   │      │          ├─► 转接至目标号码（如备用机、助理、座机）
+   │      │          └─► 转接至特定号码返回运营商提示音（如空号、关机、停机）
+   │      │
+   │      └─ 否 ──► 正常响铃接听
+```
 
-2012-8-20 转接历史导出,功能完善
+- **非 App 拨出二次呼叫**：App 本身不需要也不执行二次呼叫操作，转接全部在运营商网络侧完成，稳定、无延时、省电。
+- **现代原生标准**：彻底废弃早期 Android 依靠非公开私有 API（`ITelephony.endCall` 反射）挂断电话的旧方案，全面采用 Android 10+ 官方规范的 `CallScreeningService`，安全可靠。
 
-2012-8-15 项目迁移到此
+---
 
-2012-8-15 UI优化,bug 修复
+## ✨ 功能特性
 
-2012-8-14 简繁英支持,bug修复
+- 🎯 **定向转接名单**：自定义需要拦截与转接的联系人或特定号码，精准命中，不影响其他正常通讯。
+- 📋 **便捷添加方式**：
+  - 手动快速录入号码与备注名称；
+  - 直接从手机通讯录批量导入；
+  - 直接从最近通话记录一键添加。
+- ⏰ **时间段控制（支持跨午夜）**：
+  - 支持设置转接生效的时间窗口（例如 `09:00 - 18:00` 工作时间，或 `22:00 - 07:00` 跨午夜夜间防骚扰）；
+  - 只有在设定的时间窗口内才会触发拒接转接，非时间段内正常接听。
+- 📜 **转接历史记录**：
+  - 实时记录每一条被拦截/转接的通话历史（来电号码、备注、触发日期与具体时间）；
+  - 支持将历史记录导出，方便备份与核对；
+  - 提供一键清空历史功能。
+- 🌐 **多语言支持**：原生支持简体中文、繁體中文以及英文界面。
+- 🍃 **轻量纯粹**：无多余后台驻留、无广告SDK、不收集隐私，按需被系统回调触发。
 
-2012-8-13 20:29:00 功能完成，界面优化
+---
 
-2012-8-13 转接基本功能实现
+## 📱 使用指南
 
-2012-8-10 需求变更为呼叫转接,用户自行设置转接号码
+### 1. 前置准备：开通并设置运营商“遇忙呼叫转移”
+因为拦截后的去向由运营商负责执行，因此使用前请确保 SIM 卡已在运营商处配置了**遇忙呼叫转移（Call Forwarding on Busy）**：
 
-2012-6-28 项目初始化.
+- **通过手机系统设置开启**：
+  - 进入「电话/拨号」设置 ➔ 「呼叫转移」 ➔ 选择「遇忙转移」 ➔ 输入您希望转接的目标号码（例如空号、小号、家人电话等）并保存。
+- **或通过运营商通用 USSD 拨号代码设置**（常见通用代码）：
+  - **设置遇忙转移**：在拨号盘输入 `**67*目标号码#` 然后按拨号键。
+  - **查询遇忙转移状态**：拨打 `*#67#`。
+  - **取消遇忙转移**：拨打 `##67#`。
+  *(注：不同运营商代码可能略有差异，如有疑问可咨询当地运营商客服)*
 
+### 2. 系统权限配置
+- **默认通话筛选应用（ROLE_CALL_SCREENING）**：首次启动时根据引导将“安心转接”设为系统默认来电筛选/识别应用，以便系统在有来电时回调检查名单。
+- **通讯录权限（READ_CONTACTS）**：用于识别通讯录保存的联系人姓名与号码比对。
 
+### 3. 开始使用
+1. 在首页中录入并保存您设置的**转接目标号码**（此号码仅供界面展示与历史记录标记）。
+2. 在「转接对象」中添加想要转移/拦截的电话号码。
+3. （可选）开启「转接时间段」，限定每天生效的具体起止时间。
 
+---
 
-中文介绍
+## 🛠️ 项目构建与开发
 
-由于无法获得各个国家电话语音，比如停机语音，关机语音，决定由您自行设定转移号码(拦截的原理就是转接到另一个号码)，您可以将任何不想接听的电话转接到其他号码，在被骚扰的情况下，你甚至可以转移到警察局电话，另外在你可能无法接听的情况下(比如没有信号)，你可以将事先将你的电话转到你的闺蜜或者你的家人。如何你觉得还行，麻烦点击这个 "+1" 按钮(如果看得见) 
-有时候我们不想接某个人的电话，但是又不能挂掉电话，让人很苦恼，但是现在有了解决方法（这个软件就是为有这个需求的人群开发的），仅仅把这个人的电话号码加入黑名单，当这个人来电，软件自动挂断电话，并返回系统提示音，比如 : 通话中、关机、停机、空号。
+本项目已升级为现代 Android Gradle 工程，推荐使用最新版 **Android Studio** 打开。
 
+### 环境要求
+- **Android Studio**：Ladybug / Iguana 或更新版本
+- **JDK**：OpenJDK 17 或兼容版本
+- **Compile SDK**：35 (Android 15)
+- **Min SDK**：29 (Android 10)
 
+### 编译命令
+在项目根目录下或 `iforward` 目录下执行 Gradle 命令：
 
-Introduction(Translate By Google)
+```bash
+# 切换到工程目录
+cd iforward
 
-I do not have the various national telephone voice, such as shutdown voice, decided to set the forwarding number by your own (to interceptthe principle is forwarded to another number), you may not want to answer the phone to another number harassment case, you can even transferto the police station phone, the other in case you may not be able to answer(such as no signal), you can forward your phone go to your girlfriends or yourfamily.If you like this,Please click "+1" Button(If you can see) 
-Sometimes we don't want to answer the phone,and can't hang up either,It made us very distressed,But now I got the solution.Just add the phone number in blacklist,when the number call you,auto hang up and return system voice.
+# 编译 Debug APK
+./gradlew assembleDebug
 
+# 编译 Release APK
+./gradlew assembleRelease
+```
 
+编译生成的 APK 文件位于 `iforward/app/build/outputs/apk/`。
 
-Contact(original author)
+---
 
+## 📝 演进历史
 
-Gmail: hanlytowne@gmail.com | tanghly@gmail.com
+- **2026-10**：
+  - **现代 Android 架构改造**：全面适配 Android 10+（API 29+），SDK 升级至 35。
+  - **架构更新**：废弃 `ITelephony.endCall()` 反射私有 API，全面采用系统官方 `CallScreeningService` 实现标准来电筛选。
+  - **新功能**：新增支持跨午夜的“转接时间段控制”能力。
+  - **工程现代化**：迁移至新版 Gradle 构建系统，优化界面交互与资源结构。
+- **2014-11**：2.0 版本启动。
+- **2012-08**：正式上线 Google Play，支持简繁英多语言，增加向导与转接历史导出。
+- **2012-06**：项目最初由 **Hanley** 发起开源。
 
-Google+: http://google.com/+HanleyTang
+---
 
-WeiBo:http://www.weibo.com/tanghanlin
+## 🤝 致谢与致敬
 
-Twitter: https://twitter.com/hanleytang
-
-FaceBook: https://www.facebook.com/hanleytang
-
+- 特别感谢原作者 **Hanley** 以及最初参与界面设计和产品讨论的早期贡献者。
+- 感谢开源社区对轻量化、用户自主掌控通讯体验的持续支持。
