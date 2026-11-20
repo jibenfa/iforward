@@ -5,6 +5,7 @@
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Version-3.0.0-teal.svg" alt="Version" />
   <img src="https://img.shields.io/badge/Platform-Android%2010%2B%20(API%2029%2B)-brightgreen.svg" alt="Android Version" />
   <img src="https://img.shields.io/badge/Target%20SDK-35-blue.svg" alt="Target SDK" />
   <img src="https://img.shields.io/badge/License-Apache--2.0%20%2F%20GPL-orange.svg" alt="License" />
@@ -126,12 +127,12 @@ cd iforward
 
 ## 📝 演进历史
 
-- **2026-10**：
+- **2026-10 (v3.0.0)**：
   - **现代 Android 架构改造**：全面适配 Android 10+（API 29+），SDK 升级至 35。
   - **架构更新**：废弃 `ITelephony.endCall()` 反射私有 API，全面采用系统官方 `CallScreeningService` 实现标准来电筛选。
   - **新功能**：新增支持跨午夜的“转接时间段控制”能力。
   - **工程现代化**：迁移至新版 Gradle 构建系统，优化界面交互与资源结构。
-- **2014-11**：2.0 版本启动。
+- **2014-11 (v2.0)**：2.0 版本启动。
 - **2012-08**：正式上线 Google Play，支持简繁英多语言，增加向导与转接历史导出。
 - **2012-06**：项目最初由 **Hanley** 发起开源。
 

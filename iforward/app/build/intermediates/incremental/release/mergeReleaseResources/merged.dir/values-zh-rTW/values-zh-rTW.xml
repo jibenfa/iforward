@@ -1,28 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="about">關於</string>
+    <string name="about_app_desc">輕量、純粹、基於電信業者呼叫轉接規則的智慧來電過濾與轉接工具</string>
+    <string name="about_features_content">▪ 定向轉接名單：針對特定聯絡人/號碼精準過濾，不影響正常通訊\n▪ 便捷新增：支援手動輸入、聯絡人匯入與通話記錄新增\n▪ 時段控制：支援設定生效時段窗口（支援跨午夜，如 22:00 ~ 07:00）\n▪ 歷史記錄與匯出：完整記錄每次攔截轉接詳情，支援匯出備份\n▪ 輕量省電：無常駐背景、無廣告追蹤、全面保護隱私</string>
+    <string name="about_guide_content">1. 開啟電信業者「遇忙呼叫轉移」：使用前需在手機撥號設定中配置「遇忙轉移」號碼，或透過電信業者常用 USSD 撥號代碼設定：\n   • 開啟遇忙轉移：撥打 **67*目標號碼#\n   • 取消遇忙轉移：撥打 ##67#\n   • 查詢目前狀態：撥打 *#67#\n\n2. 系統權限要求：首次啟動請授予「預設來電篩選應用」及「聯絡人讀取」權限，以確保攔截與姓名匹配生效。</string>
+    <string name="about_intro_content">日常生活中，我們常遇到不想接聽又不好生硬掛斷的電話，或者在會議、休息時希望轉由他人代接。安心轉接保持極致輕量、零常駐守護進程、無廣告、純淨開源，將 Android 系統原生來電篩選能力與電信業者底層呼叫轉接深度結合，優雅實現對特定來電的無感轉接與擬真攔截。</string>
+    <string name="about_principle_content">安心轉接的攔截原理，本質是「定向觸發電信業者的遇忙轉移」：\n\n1. 來電呼入時，透過 Android 官方 CallScreeningService 檢查轉接名單與生效時段；\n2. 命中後立即拒絕接聽，向基地台返回「忙線/佔線」狀態；\n3. 電信業者網路識別到佔線後，自動觸發預先設定的「遇忙呼叫轉移」；\n4. 來電被自動轉移至目標號碼（如備用機、座機）或返回電信業者系統提示音（如空號、關機、停機）。\n\n★ 全部轉接由電信業者網路端執行，App 本身不發起二次呼叫，安全、省電、無延遲。</string>
+    <string name="about_section_features">功能特性</string>
+    <string name="about_section_guide">使用須知</string>
+    <string name="about_section_intro">軟體簡介</string>
+    <string name="about_section_principle">核心原理</string>
+    <string name="about_section_thanks">開源與致謝</string>
+    <string name="about_thanks_content">本應用程式完全開源免費。\n特別致敬原作者 Hanley 以及最初參與設計討論的早期貢獻者，感謝開源社群的支持。</string>
+    <string name="about_version">v%1$s (Android 10+ 適配版)</string>
+    <string name="about_version_display">v3.0.0 (Android 10+ 適配版)</string>
     <string name="add_forward_object">新增轉接對象</string>
-    <string name="app_intrudoction">來電攔截的手機軟件，目前來說都比較多，而且功能遠遠不僅僅局限於攔截號碼的範疇了，軟件開發商早就將攔截功能作為軟件的一個小功能附加在自己的軟​​件中，這方面比較有知名度的，例如：360手機衛士、安管家。他們研發的產品不僅僅是攔截號碼那麼簡單，如殺毒功能，而且還是雲查殺，流量監控，內存清理，防盜功能等。可以說他們做的非常完善、優秀了。但是由於360手機衛士又或者是安管家，兩款軟件的功能是在太多了，加上手機還安裝一大堆有後台服務的軟件，手機內存所剩無幾，我時常說手機卡的P暴，這讓我非常惆悵，身邊的同事朋友都有同感，於是萌發僅僅開發一個有攔截來電的功能的小軟件，更準確的說應該是轉接，因為讓用戶決定轉接到哪個號碼，功能會擴大化，可以用於攔截騷擾，也可以轉移到你家的座機上，家人幫你接緊急電話。不是每個人的需求都一樣，既然想到了我就開始這麼乾了!最重要的是App免費並且開源.</string>
+    <string name="app_intrudoction">日常生活中，我們常遇到不想接聽又不好生硬掛斷的電話。安心轉接保持極致輕量、零常駐守護進程、無廣告、純淨開源，將 Android 原生來電篩選與電信業者遇忙轉移結合，實現精準轉接與擬真攔截。</string>
     <string name="app_name">安心转接</string>
     <string name="app_start">開始體驗</string>
     <string name="app_subtitle">依電信業者呼叫轉接規則處理來電</string>
-    <string name="bell_ui_weibo">美女UI微博: http://t.qq.com/ccf1229</string>
     <string name="calllogs_add_number">從通話歷史選擇</string>
     <string name="cancle">取消</string>
-    <string name="chaoge_weibo">超哥微博: http://t.qq.com/xm_zzcclp2012</string>
     <string name="clear">清除</string>
-    <string name="contact">聯絡方式</string>
     <string name="contacts_add_number">從聯絡人選擇</string>
     <string name="delete">移除</string>
     <string name="disable_forward_number">禁用號碼轉接</string>
-    <string name="email">Gmail: tanghly@gmail.com</string>
     <string name="export">導出</string>
-    <string name="facebook">facebook: http://www.facebook.com/hanleytowne</string>
     <string name="forward_history">轉接歷史</string>
     <string name="forward_number">轉接號碼</string>
     <string name="forward_object">轉接對象</string>
     <string name="forward_object_default_display">轉接對象(0)</string>
-    <string name="google">Google+: http://gplus.to/hanleytowne</string>
     <string name="guide">操作指引</string>
     <string name="manually_add">手動新增</string>
     <string name="manually_add_number">手動新增號碼</string>
@@ -35,9 +42,8 @@
     <string name="number_settings">號碼設定</string>
     <string name="ok">確定</string>
     <string name="settings">設定</string>
-    <string name="source_code">SourceCode:http://code.google.com/p/iforward/</string>
-    <string name="thanks">特別感謝</string>
-    <string name="thanks_content">在這里特別感謝美女UI非常耐心的設計界面，同時也非常感謝超哥對我轉接想法的肯定,沒有你們的支持也就沒有“我轉接”,再次謝謝你們！</string>
+    <string name="thanks">開源致謝</string>
+    <string name="thanks_content">特別感謝原作者 Hanley 以及早期貢獻者，感謝開源社群的支持與肯定！</string>
     <string name="time_window_enable">啟用時段限制</string>
     <string name="time_window_end">結束 %1$s</string>
     <string name="time_window_hint">僅在此時段內拒接符合號碼條件的來電；支援跨午夜設定。</string>
@@ -53,6 +59,4 @@
     <string name="tip_no_item_selected">未曾選擇</string>
     <string name="tip_no_number_settings">未設定號碼</string>
     <string name="transferred_to">來電被轉至</string>
-    <string name="twitter">twitter: http://www.facebook.com/hanleytowne</string>
-    <string name="weibo">weibo: http://weibo.com/tanghanlin</string>
 </resources>

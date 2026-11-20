@@ -23,28 +23,6 @@
                     }
                 }
             ]
-        },
-        {
-            "outputFile": "C:\\Users\\coffeecat\\.gradle\\daemon\\9.6.0\\cn.xm.hanley.iforward.activity.app-mergeReleaseResources-2:\\values-v11\\values-v11.xml",
-            "map": [
-                {
-                    "source": "D:\\docs\\Codex\\iforward-modern\\app\\src\\main\\res\\values-v11\\styles.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "19",
-                        "endColumns": "63",
-                        "endOffsets": "78"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "62",
-                        "endOffsets": "113"
-                    }
-                }
-            ]
         }
     ]
 }

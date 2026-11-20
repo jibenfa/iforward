@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">iForward</string>
+    <string name="app_name">安心转接</string>
+    <string name="app_subtitle">Incoming call forwarding settings</string>
+    <string name="more_options">More options</string>
+    <string name="number_page_title">Forwarding number</string>
+    <string name="number_page_hint">Set the destination for carrier busy forwarding</string>
     <string name="no_data">no data</string>
     <string name="ok">OK</string>
     <string name="cancle">Cancle</string>
@@ -13,14 +17,6 @@
     <string name="tip_no_item_selected">no item selected</string>
     <string name="settings">settings</string>
     <string name="about">About</string>
-    <string name="app_intrudoction">Sometimes we don\'t want to answer the phone,and can\'t hang up either,It made us very distressed,But now I got the solution.Just add the phone number in forward number list ,when the number call you,auto hang up and forward to another number that you has set! The most important is free and open source.</string>
-    <string name="contact">Contact</string>
-    <string name="email">Gmail: tanghly@gmail.com</string>
-    <string name="google">Google+: http://gplus.to/hanleytowne</string>
-    <string name="twitter">twitter: http://www.facebook.com/hanleytowne</string>
-    <string name="facebook">facebook: http://www.facebook.com/hanleytowne</string>
-    <string name="weibo">weibo: http://weibo.com/tanghanlin</string>
-    <string name="source_code">SourceCode:http://code.google.com/p/iforward/</string>
     <string name="manually_add">manually add</string>
     <string name="transferred_to">transferred to</string>
     <string name="delete">remove</string>
@@ -43,9 +39,30 @@
     <string name="tip_forward_number_settings">need to set the forward number before start</string>
     <string name="guide">Guide</string>
     <string name="app_start">Enter</string>
-     <string name="thanks">Thanks</string>
-    <string name="bell_ui_weibo">Bell UI weibo: http://t.qq.com/ccf1229</string>
-    <string name="chaoge_weibo">zzc weibo: http://t.qq.com/xm_zzcclp2012</string>
-    <string name="thanks_content">Special thanks to the a beautiful UI very patient design interface, and also very grateful to the zcc-brother of my adapter idea certainly, without your support, there would be no "iForward", thank you so so so much!</string>
-    
+    <string name="time_window_title">Forwarding time window</string>
+    <string name="time_window_enable">Enable time restriction</string>
+    <string name="time_window_hint">Only matching callers during this time are rejected. Overnight ranges are supported.</string>
+    <string name="time_window_start">Start %1$s</string>
+    <string name="time_window_end">End %1$s</string>
+
+    <!-- About Page -->
+    <string name="about_app_desc">A lightweight, pure Android call forwarding and screening tool based on carrier rules</string>
+    <string name="about_version">v%1$s (Modernized for Android 10+)</string>
+    <string name="about_version_display">v3.0.0 (Modernized for Android 10+)</string>
+    <string name="about_section_intro">Introduction</string>
+    <string name="about_intro_content">In daily life, we often encounter calls that we do not want to answer but cannot bluntly decline, or calls we wish to delegate during meetings or rest. iForward is lightweight, free of permanent background daemons, ad-free, and open source. It combines modern Android CallScreeningService with carrier-side call forwarding to achieve seamless forwarding and realistic screening.</string>
+    <string name="about_section_principle">How It Works</string>
+    <string name="about_principle_content">The screening mechanism fundamentally relies on triggering carrier "Call Forwarding on Busy":\n\n1. When an incoming call arrives, CallScreeningService checks the list and active time window;\n2. If matched, the call is rejected immediately, returning a "busy" signal to the cellular network;\n3. The carrier network detects the busy state and triggers your configured busy forwarding;\n4. The call is automatically routed to your target number (e.g. secondary phone, landline) or plays carrier prompt tones (out of service, powered off, etc.).\n\n★ All forwarding is executed on the carrier network side. The app does not place a second call, making it secure, battery-friendly, and latency-free.</string>
+    <string name="about_section_features">Features</string>
+    <string name="about_features_content">▪ Targeted Forwarding List: Precisely screen specific contacts/numbers without affecting regular calls.\n▪ Flexible Adding: Add manually, load from contacts, or load from recent call logs.\n▪ Time Window Control: Configure active time ranges, including overnight windows (e.g. 22:00 ~ 07:00).\n▪ History &amp; Export: Record each screened call with date/time details and support history export.\n▪ Lightweight: No background battery drain, no tracking SDKs, privacy-focused.</string>
+    <string name="about_section_guide">Usage Notice</string>
+    <string name="about_guide_content">1. Enable Carrier Busy Forwarding: Configure busy forwarding in your phone\'s dialer settings or via common USSD codes:\n   • Enable: Dial **67*DestinationNumber#\n   • Cancel: Dial ##67#\n   • Query: Dial *#67#\n\n2. Permissions Required: Grant "Default Call Screening App" role and "Contacts" permission on first launch so screening and contact matching work properly.</string>
+    <string name="about_section_thanks">Open Source &amp; Credits</string>
+    <string name="about_thanks_content">This project is completely free and open source.\nSpecial thanks to the original author Hanley and early contributors for their support.</string>
+
+    <!-- Compatibility fields -->
+    <string name="app_intrudoction">Sometimes we do not want to answer the phone and cannot hang up either. iForward leverages Android call screening and carrier busy forwarding to achieve realistic screening and call forwarding.</string>
+    <string name="thanks">Thanks</string>
+    <string name="thanks_content">Special thanks to the original author Hanley and early contributors for their support!</string>
+
 </resources>
